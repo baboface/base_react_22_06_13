@@ -13,6 +13,7 @@ import { TodayMenu } from "./components/3_props/TodayMenu";
 import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
 import { kakaoDb } from "./styles/db";
+import { Content } from "./components/4_map/Content";
 
 const App = () => {
   return (
@@ -32,7 +33,9 @@ const App = () => {
       {/* 3일차 */}
 
       {/* <FoodMenu menus={TodayMenuDb} /> */}
-      <Kakao kakaoDate={kakaoDb} />
+      {/* <Kakao kakaoDate={kakaoDb} /> */}
+      <Content />
+      {/* 4일차 */}
     </div>
   );
 };
