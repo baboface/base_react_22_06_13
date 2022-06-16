@@ -10,6 +10,9 @@ import { Subject } from "./components/3_props/Subject";
 import { subjectDb } from "./styles/db";
 import { TodayMenuDb } from "./styles/db";
 import { TodayMenu } from "./components/3_props/TodayMenu";
+import { FoodMenu } from "./components/4_map/FoodMenu";
+import { Kakao } from "./components/4_map/Kakao";
+import { kakaoDb } from "./styles/db";
 
 const App = () => {
   return (
@@ -25,8 +28,11 @@ const App = () => {
 
       {/* <Menus /> */}
       {/* <Subject sub={subjectDb} /> */}
-      <TodayMenu menu={TodayMenuDb} />
+      {/* <TodayMenu menu={TodayMenuDb} /> */}
       {/* 3일차 */}
+
+      {/* <FoodMenu menus={TodayMenuDb} /> */}
+      <Kakao kakaoDate={kakaoDb} />
     </div>
   );
 };
