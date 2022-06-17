@@ -19,6 +19,7 @@ import { homeWorkdb } from "./styles/db";
 import { Homework } from "./components/4_map/Homework";
 import { ConEx } from "./components/4_map/ConEx";
 import { conDb } from "./styles/db";
+import { Icons } from "./components/5_MusicApp/Icons";
 const App = () => {
   return (
     <div>
@@ -42,7 +43,8 @@ const App = () => {
       {/* <Content /> */}
       {/* 4일차 */}
       {/* <Homework work={homeWorkdb} /> */}
-      <ConEx conData={conDb} />
+      {/* <ConEx conData={conDb} /> */}
+      <Icons />
     </div>
   );
 };
