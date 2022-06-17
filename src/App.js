@@ -15,7 +15,10 @@ import { Kakao } from "./components/4_map/Kakao";
 import { kakaoDb } from "./styles/db";
 import { Content } from "./components/4_map/Content";
 import { GlobalStyled } from "./styles/GlobalStyled";
-
+import { homeWorkdb } from "./styles/db";
+import { Homework } from "./components/4_map/Homework";
+import { ConEx } from "./components/4_map/ConEx";
+import { conDb } from "./styles/db";
 const App = () => {
   return (
     <div>
@@ -36,8 +39,10 @@ const App = () => {
 
       {/* <FoodMenu menus={TodayMenuDb} /> */}
       {/* <Kakao kakaoDate={kakaoDb} /> */}
-      <Content />
+      {/* <Content /> */}
       {/* 4일차 */}
+      {/* <Homework work={homeWorkdb} /> */}
+      <ConEx conData={conDb} />
     </div>
   );
 };
