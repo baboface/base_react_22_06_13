@@ -143,7 +143,7 @@ const MusicList = styled.div`
   background-color: white;
   border-radius: 30px;
   display: flex;
-  margin: 20px auto;
+  margin: 10px auto;
   justify-content: space-between;
   align-items: center;
 
