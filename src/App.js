@@ -21,6 +21,10 @@ import { ConEx } from "./components/4_map/ConEx";
 import { conDb } from "./styles/db";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { MusicApp } from "./components/5_MusicApp/MusicApp";
+import { ClassEvent } from "./components/6_Event/ClassEvent";
+import { FnEvent } from "./components/6_Event/FnEvent";
+import { ChangeColor } from "./components/6_Event/ChangeColor";
+
 const App = () => {
   return (
     <div>
@@ -45,8 +49,12 @@ const App = () => {
       {/* 4일차 */}
       {/* <Homework work={homeWorkdb} /> */}
       {/* <ConEx conData={conDb} /> */}
+
       {/* <Icons /> */}
-      <MusicApp />
+      {/* <MusicApp /> */}
+      {/* <ClassEvent /> */}
+      {/* <FnEvent /> */}
+      <ChangeColor />
       {/* 5일차 */}
     </div>
   );
