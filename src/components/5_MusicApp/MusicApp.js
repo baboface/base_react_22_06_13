@@ -30,9 +30,18 @@ const Section = styled.div`
   background-color: #1d1d1d;
   border-radius: 25px;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
-const CoverImg = styled.div``;
+const CoverImg = styled.div`
+  width: 90%;
+  height: 280px;
+  border-radius: 25px;
+  box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
+  margin: 30px 0;
+`;
 
 export const MusicApp = () => {
   return (
@@ -40,7 +49,11 @@ export const MusicApp = () => {
       <Section>
         <Header />
 
-        <CoverImg />
+        <CoverImg
+          style={{
+            backgroud: `url(https://image.yes24.com/momo/TopCate49/MidCate09/4889398.jpg) no-reapeat center / cover`,
+          }}
+        />
 
         <TitleWrap />
 
