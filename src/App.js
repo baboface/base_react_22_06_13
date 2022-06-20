@@ -20,6 +20,7 @@ import { Homework } from "./components/4_map/Homework";
 import { ConEx } from "./components/4_map/ConEx";
 import { conDb } from "./styles/db";
 import { Icons } from "./components/5_MusicApp/Icons";
+import { MusicApp } from "./components/5_MusicApp/MusicApp";
 const App = () => {
   return (
     <div>
@@ -44,7 +45,9 @@ const App = () => {
       {/* 4일차 */}
       {/* <Homework work={homeWorkdb} /> */}
       {/* <ConEx conData={conDb} /> */}
-      <Icons />
+      {/* <Icons /> */}
+      <MusicApp />
+      {/* 5일차 */}
     </div>
   );
 };

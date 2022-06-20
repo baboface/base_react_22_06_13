@@ -15,4 +15,8 @@ export const GlobalStyled = createGlobalStyle`
     a{
       text-decoration: none;
     }
+
+    body {
+      background-color: #555;
+    }
 `;
