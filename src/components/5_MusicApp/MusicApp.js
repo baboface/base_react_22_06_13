@@ -9,6 +9,7 @@ import {
   faShuffle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import styledComponents from "styled-components";
 import styled from "styled-components";
 import { BottomPlay } from "./components/BottomPlay";
 import { BtnWrap } from "./components/BtnWrap";
@@ -41,6 +42,8 @@ const CoverImg = styled.div`
   border-radius: 25px;
   box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
   margin: 30px 0;
+  background: url(http://www.feelnumb.com/wp-content/uploads/2009/12/oasis_whats_the_story_morning_glory_advance_cd.jpg)
+    no-repeat center/cover;
 `;
 
 export const MusicApp = () => {
@@ -49,11 +52,7 @@ export const MusicApp = () => {
       <Section>
         <Header />
 
-        <CoverImg
-          style={{
-            backgroud: `url(https://image.yes24.com/momo/TopCate49/MidCate09/4889398.jpg) no-reapeat center / cover`,
-          }}
-        />
+        <CoverImg />
 
         <TitleWrap />
 
