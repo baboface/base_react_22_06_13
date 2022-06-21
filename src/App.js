@@ -24,6 +24,8 @@ import { MusicApp } from "./components/5_MusicApp/MusicApp";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { ChangeColor } from "./components/6_Event/ChangeColor";
+import { Animation } from "./components/6_Event/Animation";
+import { BaseRouter } from "./components/7_router/BaseRouter";
 
 const App = () => {
   return (
@@ -52,10 +54,16 @@ const App = () => {
 
       {/* <Icons /> */}
       {/* <MusicApp /> */}
-      {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
-      <ChangeColor />
       {/* 5일차 */}
+
+      {/* <ClassEvent /> */}
+      {/* <ChangeColor /> */}
+      {/* <Animation /> */}
+      {/* 6일차 */}
+
+      <BaseRouter />
+      {/* 7일차 */}
     </div>
   );
 };

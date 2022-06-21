@@ -20,6 +20,3 @@ export const ChangeColor = () => {
   const [color, setColor] = useState("salmon");
   return <Box bg={color} onClick={() => setColor("white")} />;
 };
-
-const [color,setColor] = useState("white")
-return <Box bg={color} onClick={() => setColor("red")}>
