@@ -63,6 +63,8 @@ const App = () => {
       {/* 6일차 */}
 
       <BaseRouter />
+      {/* <EXRouter /> */}
+
       {/* 7일차 */}
     </div>
   );
