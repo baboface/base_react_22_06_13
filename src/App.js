@@ -26,6 +26,7 @@ import { FnEvent } from "./components/6_Event/FnEvent";
 import { ChangeColor } from "./components/6_Event/ChangeColor";
 import { Animation } from "./components/6_Event/Animation";
 import { BaseRouter } from "./components/7_router/BaseRouter";
+import { LayoutRoutes, Router } from "./components/8_BaseLayout/LayoutRoutes";
 
 const App = () => {
   return (
@@ -62,10 +63,11 @@ const App = () => {
       {/* <Animation /> */}
       {/* 6일차 */}
 
-      <BaseRouter />
+      {/* <BaseRouter /> */}
       {/* <EXRouter /> */}
-
       {/* 7일차 */}
+
+      <LayoutRoutes />
     </div>
   );
 };

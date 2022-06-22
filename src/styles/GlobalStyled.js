@@ -14,9 +14,11 @@ export const GlobalStyled = createGlobalStyle`
     }
     a{
       text-decoration: none;
+      color: #1d1d1d;
     }
 
     body {
-      background-color: #555;
+      /* background-color: #555; */
+      font-family: 'Noto Sans KR', sans-serif;
     }
 `;
